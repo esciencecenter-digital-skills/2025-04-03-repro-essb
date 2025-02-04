@@ -131,7 +131,7 @@ This workshop teaches you the skills to make your code reusable by others.
 You will practice these skills by directly applying them to your own project.
 Inevitably, this will make your research more reproducible.
 
-You should bring your own coding project to the workshop that you would like to make reusable. 
+You should bring your own coding project to the workshop that you would like to make reusable and share with others. 
 This can range from a few small scripts to an extensive piece of software.
 
 {% comment %}
