@@ -271,7 +271,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email <a href='mailto:{{e.klapwijk@essb.eur.nl}}'>{{e.klapwijk@essb.eur.nl}}</a>
+  Please email <a href='mailto:e.klapwijk@essb.eur.nl'>e.klapwijk@essb.eur.nl</a>
   for more information.
 </p>
 
