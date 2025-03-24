@@ -271,20 +271,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email
-  {% if site.email %}
-  {% for email in site.email %}
-  {% if forloop.last and site.email.size > 1 %}
-  {% else %}
-  {% unless forloop.first %}
-  ,
-  {% endunless %}
-  {% endif %}
-  <a href='mailto:{{email}}'>{{email}}</a>
-  {% endfor %}
-  {% else %}
-  to-be-announced
-  {% endif %}
+  Please email <a href='mailto:{{e.klapwijk@essb.eur.nl}}'>{{e.klapwijk@essb.eur.nl}}</a>
   for more information.
 </p>
 
@@ -400,17 +387,17 @@ of code below the Schedule `<h2>` header below with
 <h2 id="schedule">Schedule</h2>
 * 09:30 Welcome & icebreaker
 * 09:45 Workshop introduction: why is reproducibility important?
-* 10:00 Uploading a coding project to GitHub
+* 10:15 Software dependencies
 * 10:30 break
-* 10:40 Uploading a coding project to GitHub
-* 10:55 Software dependencies
-* 11:15 Software documentation
+* 10:40 Software dependencies continuation
+* 11:00 Software documentation
 * 11:30 break
 * 11:40 Code conventions and modular coding
 * 12:30 Lunch
 * 13:30 Next steps: how to make your code reusable?
 * 13:45 Work on your own project
-* 15:30 Reusability check
+* 15:00 break
+* 15:10 Reusability check
 * 16:15 Wrap-up
 * 16:30 DRINKS
 
