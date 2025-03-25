@@ -437,8 +437,7 @@ please preview your site before committing, and make sure to run
   this
   {% endif %}
   workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  you will need to finish the [pre-workshop assignment](https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/github.html) before the workshop day.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -451,12 +450,6 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-<h3 id="software-setup">Software setup</h3>
-### Software
-
-To participate in this workshop, you will need to prepare the following (if you haven't already):
-- Create a GitHub account. Please refer to [this page](https://coderefinery.github.io/installation/github/) for instructions.
-- Make sure you can edit the code of your project during the day of the workshop.
 
 {% comment %}
 For online workshops, the section below provides:
